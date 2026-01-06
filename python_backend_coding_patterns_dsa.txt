@@ -1,0 +1,250 @@
+
+CODING ROUND & DSA MASTER PATTERN LIST
+For Python Backend Engineers (2–4 Years Experience)
+
+=================================================
+SECTION 1: WHAT CODING ROUNDS ACTUALLY TEST
+=================================================
+- Problem understanding
+- Edge case handling
+- Clean logic & readability
+- Time and space complexity
+- Data structure choice
+- Debugging mindset
+- Ability to explain approach clearly
+
+=================================================
+SECTION 2: CORE CODING PATTERNS (VERY HIGH FREQUENCY)
+=================================================
+
+1. Array & String Patterns
+--------------------------
+- Two pointers
+- Sliding window
+- Prefix sum
+- Frequency counter (hash map)
+- String parsing
+- Anagram patterns
+- Subarray problems
+
+2. Hashing Patterns
+--------------------------
+- Counting frequency
+- Lookup optimization
+- Detect duplicates
+- Grouping (anagrams, categories)
+- Hash-based caching
+
+3. Two Pointer Patterns
+--------------------------
+- Start-end pointers
+- Fast-slow pointers
+- Removing duplicates
+- Palindrome checks
+
+4. Sliding Window
+--------------------------
+- Fixed window
+- Variable window
+- Longest/shortest substring
+- Maximum sum window
+
+=================================================
+SECTION 3: STACK & QUEUE PATTERNS
+=================================================
+
+5. Stack Patterns
+--------------------------
+- Valid parentheses
+- Next greater element
+- Monotonic stack
+- Expression evaluation
+
+6. Queue / Deque Patterns
+--------------------------
+- BFS
+- Sliding window maximum
+- Task scheduling
+
+=================================================
+SECTION 4: LINKED LIST PATTERNS
+=================================================
+
+7. Linked List Basics
+--------------------------
+- Reverse linked list
+- Detect cycle
+- Merge lists
+- Middle of linked list
+
+8. Fast & Slow Pointer
+--------------------------
+- Cycle detection
+- Palindrome list
+- Loop removal
+
+=================================================
+SECTION 5: TREE & GRAPH PATTERNS
+=================================================
+
+9. Binary Tree Traversals
+--------------------------
+- Inorder
+- Preorder
+- Postorder
+- Level order (BFS)
+
+10. Tree Patterns
+--------------------------
+- Height & depth
+- Diameter
+- Balanced tree check
+- Lowest Common Ancestor
+
+11. Graph Patterns
+--------------------------
+- BFS & DFS
+- Cycle detection
+- Connected components
+- Topological sort (basic)
+
+=================================================
+SECTION 6: RECURSION & BACKTRACKING
+=================================================
+
+12. Recursion Basics
+--------------------------
+- Base case handling
+- Recursive thinking
+- Stack overflow prevention
+
+13. Backtracking Patterns
+--------------------------
+- Subsets
+- Permutations
+- Combinations
+- N-Queens (conceptual)
+
+=================================================
+SECTION 7: SEARCHING & SORTING
+=================================================
+
+14. Binary Search Patterns
+--------------------------
+- Classic binary search
+- Lower bound / upper bound
+- Search in rotated array
+
+15. Sorting Concepts
+--------------------------
+- Merge sort
+- Quick sort
+- Sorting with custom keys
+
+=================================================
+SECTION 8: GREEDY & INTERVAL PATTERNS
+=================================================
+
+16. Greedy Algorithms
+--------------------------
+- Activity selection
+- Scheduling problems
+- Resource allocation
+
+17. Interval Problems
+--------------------------
+- Merge intervals
+- Overlapping intervals
+- Meeting rooms
+
+=================================================
+SECTION 9: DYNAMIC PROGRAMMING (BASIC LEVEL)
+=================================================
+
+18. DP Fundamentals
+--------------------------
+- Memoization vs tabulation
+- 1D DP (climbing stairs)
+- Knapsack (0/1 basic)
+- Fibonacci-style problems
+
+=================================================
+SECTION 10: BACKEND-SPECIFIC CODING QUESTIONS
+=================================================
+
+19. Data Processing
+--------------------------
+- JSON parsing
+- CSV handling
+- Log processing
+- Data aggregation
+
+20. API-Oriented Logic
+--------------------------
+- Pagination logic
+- Rate limiting logic
+- Validation logic
+- Deduplication logic
+
+21. Concurrency Basics
+--------------------------
+- Thread-safe counters
+- Rate limiter logic (token bucket)
+- Producer-consumer (conceptual)
+
+=================================================
+SECTION 11: PYTHON-SPECIFIC CODING PATTERNS
+=================================================
+
+22. Python Tricks
+--------------------------
+- List/dict comprehension
+- enumerate, zip
+- any/all
+- Counter, defaultdict
+- Sorting with lambda
+
+23. Error Handling
+--------------------------
+- Try/except logic
+- Custom exception handling
+
+=================================================
+SECTION 12: PROBLEM-SOLVING STRATEGY (VERY IMPORTANT)
+=================================================
+
+- Clarify input/output
+- Handle edge cases first
+- Write clean, readable code
+- Optimize only if needed
+- Explain time & space complexity
+- Test with examples
+
+=================================================
+SECTION 13: WHAT TO MASTER VS SKIP
+=================================================
+
+MUST MASTER:
+- Arrays & strings
+- Hash maps
+- Two pointers
+- Sliding window
+- Stack
+- Linked list
+- Trees (basic)
+- Binary search
+
+GOOD TO KNOW:
+- Graphs
+- DP basics
+- Greedy
+- Intervals
+
+LOW PRIORITY FOR BACKEND ROLES:
+- Advanced DP
+- Heavy graph theory
+- Competitive programming tricks
+
+=================================================
+END OF CODING ROUND & DSA PATTERN LIST
+=================================================
