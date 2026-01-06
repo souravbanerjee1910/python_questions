@@ -1,0 +1,205 @@
+
+PYTHON BACKEND INTERVIEW MASTER TOPIC LIST (2–4 YEARS EXPERIENCE)
+
+====================
+1. CORE PYTHON
+====================
+- Python data types
+- Mutable vs immutable objects
+- List, tuple, set, dict differences
+- Shallow copy vs deep copy
+- Default mutable arguments
+- List/dict/set comprehensions
+- Lambda functions
+- map, filter, reduce
+- Decorators
+- Closures
+- Iterators vs generators
+- yield keyword
+- OOP concepts (inheritance, polymorphism, composition)
+- Magic methods (__init__, __str__, __repr__)
+- Exception handling
+- Custom exceptions
+- Memory management
+- Reference counting
+- Garbage collection
+- Python GIL
+- Threading vs multiprocessing
+- Asyncio basics
+- async / await
+- Event loop
+- Coroutine vs task
+
+====================
+2. DJANGO CORE
+====================
+- Django architecture (MVT)
+- Django project vs app
+- Request/response lifecycle
+- URL routing
+- Views (FBV, CBV)
+- Models & fields
+- Model relationships
+- Migrations
+- Django admin customization
+- Templates & template inheritance
+- Forms vs ModelForms
+- Validation flow
+- Middleware
+- Signals
+- Authentication system
+- Sessions & cookies
+- CSRF, XSS, CORS
+- Static & media files
+- Django settings
+- Logging in Django
+
+====================
+3. DJANGO ORM & DATABASE
+====================
+- QuerySets & lazy evaluation
+- filter(), exclude(), get()
+- Q objects
+- F expressions
+- select_related vs prefetch_related
+- N+1 problem
+- annotate & aggregate
+- Transactions & atomic blocks
+- Race conditions
+- Indexing basics
+- Pagination strategies
+- Raw SQL vs ORM
+- PostgreSQL vs MySQL basics
+
+====================
+4. DJANGO REST FRAMEWORK (DRF)
+====================
+- What is DRF
+- Serializers vs ModelSerializers
+- Serializer validation flow
+- Nested serializers
+- APIView
+- GenericAPIView
+- Mixins
+- ViewSets
+- Routers
+- Authentication (Token, JWT)
+- Permissions
+- Object-level permissions
+- Throttling
+- Rate limiting
+- Pagination
+- Filtering & ordering
+- API versioning
+- API testing
+
+====================
+5. FASTAPI
+====================
+- FastAPI architecture
+- ASGI vs WSGI
+- Async-first design
+- Pydantic models
+- Dependency injection
+- Background tasks
+- Async database access
+- Performance comparison with Django
+- FastAPI project structure
+- When not to use FastAPI
+
+====================
+6. ASYNC, GIL & CONCURRENCY
+====================
+- Asyncio internals
+- Event loop
+- Blocking vs non-blocking code
+- GIL impact
+- Async in Django
+- Async in FastAPI
+- Thread pools
+- Celery vs async
+- CPU-bound vs I/O-bound tasks
+
+====================
+7. CACHING & PERFORMANCE
+====================
+- Redis basics
+- Cache-aside pattern
+- Cache invalidation
+- TTL
+- Avoiding cache stampede
+- API response caching
+- Query optimization
+- Performance debugging
+
+====================
+8. BACKGROUND TASKS
+====================
+- Celery architecture
+- Redis / RabbitMQ
+- Task retries
+- Idempotency
+- Scheduled jobs
+- Error handling
+
+====================
+9. SYSTEM DESIGN (MID-LEVEL)
+====================
+- REST API design principles
+- Stateless services
+- API scalability
+- Load balancing
+- Handling traffic spikes
+- Pagination design
+- Authentication flow
+- File uploads
+- Notifications
+- Trade-offs
+
+====================
+10. DOCKER & DEPLOYMENT
+====================
+- Docker basics
+- Dockerfile
+- Images vs containers
+- Docker Compose
+- Environment variables
+- Gunicorn vs Uvicorn
+- Graceful shutdown
+- Health checks
+- Zero-downtime deployment
+
+====================
+11. CI/CD
+====================
+- Git workflow
+- Jenkins basics
+- GitHub Actions
+- GitLab CI
+- Build-test-deploy pipeline
+- Rollbacks
+- Environment separation
+
+====================
+12. KUBERNETES (BONUS)
+====================
+- Pods
+- Deployments
+- Services
+- ConfigMaps
+- Secrets
+- Horizontal Pod Autoscaler
+- Rolling updates
+- Zero downtime deployments
+
+====================
+13. TESTING & QUALITY
+====================
+- Unit testing
+- API testing
+- Mocking
+- Code reviews
+- Logging
+- Monitoring
+
+END OF TOPIC LIST
