@@ -1,0 +1,416 @@
+🧠 SYSTEM DESIGN & SCALABILITY — INTERVIEW QUESTIONS
+🔹 Scalability (Vertical vs Horizontal)
+
+What is scalability?
+
+Difference between vertical and horizontal scaling?
+
+Pros and cons of vertical scaling?
+
+Pros and cons of horizontal scaling?
+
+Which scaling is more fault tolerant?
+
+When would you choose vertical scaling?
+
+When would horizontal scaling fail?
+
+🔹 Load Balancing
+
+What is load balancing?
+
+Why do we need load balancers?
+
+Types of load balancers?
+
+Layer 4 vs Layer 7 load balancers?
+
+Common load balancing algorithms?
+
+What happens if load balancer fails?
+
+How does sticky session work?
+
+Where does Nginx fit in load balancing?
+
+🔹 Database Replication
+
+What is database replication?
+
+Why is replication needed?
+
+Master-slave vs master-master replication?
+
+How does read scaling work?
+
+What happens if master goes down?
+
+Replication lag — what is it?
+
+Write consistency issues in replication?
+
+🔹 Database Sharding
+
+What is sharding?
+
+Sharding vs partitioning?
+
+Horizontal vs vertical sharding?
+
+How do you choose a shard key?
+
+Problems with poor shard key?
+
+Re-sharding challenges?
+
+How joins work in sharded databases?
+
+🔹 CAP Theorem
+
+What is CAP theorem?
+
+Explain Consistency, Availability, Partition Tolerance
+
+Can a system guarantee all three?
+
+CP vs AP systems?
+
+Which databases are CP/AP?
+
+Real-world example of CAP tradeoff?
+
+How CAP applies in microservices?
+
+🔹 Consistent Hashing
+
+What problem does consistent hashing solve?
+
+How is it different from normal hashing?
+
+What happens when a node is added/removed?
+
+Where is consistent hashing used?
+
+How it helps load balancing?
+
+Virtual nodes — why needed?
+
+🔹 Caching (Redis, Memcached)
+
+What is caching?
+
+Why caching improves performance?
+
+Redis vs Memcached?
+
+Cache-aside pattern?
+
+Write-through vs write-back caching?
+
+Cache invalidation strategies?
+
+What is cache stampede?
+
+When should NOT cache data?
+
+🔹 Message Queues (Celery, RabbitMQ, Kafka)
+
+Why do we need message queues?
+
+What problem do message queues solve?
+
+Producer vs consumer?
+
+RabbitMQ vs Kafka?
+
+When to use Kafka over RabbitMQ?
+
+How Celery works internally?
+
+What is message acknowledgment?
+
+What is idempotency in queues?
+
+What happens if consumer crashes?
+
+🔹 Pagination Techniques
+
+Why pagination is needed?
+
+Offset vs cursor-based pagination?
+
+Problems with offset pagination?
+
+How cursor pagination works?
+
+Pagination for large datasets?
+
+Pagination with sorting?
+
+Pagination in APIs best practices?
+
+🔹 WebSockets & Real-time Systems
+
+What is WebSocket?
+
+HTTP vs WebSocket?
+
+When to use WebSockets?
+
+How WebSocket maintains connection?
+
+Scaling WebSockets?
+
+Polling vs long polling vs WebSocket?
+
+Real-world use cases of WebSockets?
+
+🔹 API Rate Limiting / Throttling
+
+What is rate limiting?
+
+Why rate limiting is important?
+
+Rate limiting vs throttling?
+
+Fixed window vs sliding window?
+
+Token bucket vs leaky bucket?
+
+Where should rate limiting be implemented?
+
+How Redis is used for rate limiting?
+
+How to handle rate-limit exceeded?
+
+🔹 CDN Basics
+
+What is CDN?
+
+Why CDN is used?
+
+How CDN works?
+
+What content should be cached via CDN?
+
+CDN vs caching server?
+
+How CDN improves latency?
+
+CDN cache invalidation?
+
+🔹 Microservices vs Monolith
+
+What is monolithic architecture?
+
+What is microservices architecture?
+
+Monolith vs microservices?
+
+Pros and cons of microservices?
+
+When NOT to use microservices?
+
+Service communication methods?
+
+Data management in microservices?
+
+Distributed transaction problem?
+
+Microservices deployment challenges?
+
+⚙️ DEVOPS BASICS — INTERVIEW QUESTIONS
+🔹 Git & GitHub
+
+What is Git?
+
+Git vs GitHub?
+
+What is a branch?
+
+Git merge vs rebase?
+
+What is pull request?
+
+How do you resolve merge conflicts?
+
+What is git stash?
+
+What is git cherry-pick?
+
+Git workflow in teams?
+
+🔹 CI/CD
+
+What is CI/CD?
+
+Why CI/CD is important?
+
+CI vs CD?
+
+Typical CI/CD pipeline stages?
+
+What is GitHub Actions?
+
+What is GitLab CI?
+
+How do you automate testing?
+
+How rollback works in CI/CD?
+
+🔹 Docker
+
+What is Docker?
+
+Image vs container?
+
+What is Dockerfile?
+
+What is Docker Compose?
+
+Volumes vs bind mounts?
+
+Docker networking types?
+
+Why containers are lightweight?
+
+How Docker helps deployment?
+
+Common Docker issues in production?
+
+🔹 Kubernetes Basics
+
+What is Kubernetes?
+
+Why Kubernetes is needed?
+
+What is a pod?
+
+Pod vs container?
+
+What is deployment?
+
+What is service?
+
+ClusterIP vs NodePort vs LoadBalancer?
+
+What is ConfigMap?
+
+What is Secret?
+
+Rolling updates in Kubernetes?
+
+What is HPA?
+
+Kubernetes vs Docker?
+
+🔹 AWS Basics
+IAM
+
+What is IAM?
+
+Users vs roles?
+
+Policies?
+
+Why IAM is important?
+
+EC2
+
+What is EC2?
+
+EC2 vs container?
+
+Security groups?
+
+Key pairs?
+
+S3
+
+What is S3?
+
+Object storage vs block storage?
+
+Public vs private buckets?
+
+S3 use cases?
+
+RDS
+
+What is RDS?
+
+RDS vs self-managed DB?
+
+Multi-AZ deployment?
+
+Backup & restore?
+
+Lambda
+
+What is AWS Lambda?
+
+Serverless meaning?
+
+Lambda use cases?
+
+Lambda limitations?
+
+🔹 Auto Scaling
+
+What is auto scaling?
+
+Why auto scaling is needed?
+
+Horizontal vs vertical auto scaling?
+
+Scaling based on what metrics?
+
+Challenges with auto scaling?
+
+🔹 Monitoring (Prometheus, Grafana)
+
+What is monitoring?
+
+Why monitoring is important?
+
+What is Prometheus?
+
+What is Grafana?
+
+Metrics vs logs?
+
+What should be monitored?
+
+Alert thresholds?
+
+🔹 Logging & Alerting (ELK)
+
+What is logging?
+
+Why centralized logging?
+
+What is ELK stack?
+
+Log vs metric vs trace?
+
+How alerts are triggered?
+
+What makes a good alert?
+
+Alert fatigue?
+
+🔥 INTERVIEWER FAVORITE SYSTEM DESIGN TRAPS
+
+How do you scale a Django app to 1M users?
+
+How do you handle sudden traffic spikes?
+
+How do you design fault-tolerant systems?
+
+What happens when cache goes down?
+
+How do you ensure data consistency?
+
+How do you design for failures?
+
+How do you debug production issues?
